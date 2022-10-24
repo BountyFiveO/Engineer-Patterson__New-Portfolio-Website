@@ -2,12 +2,10 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Facebook][facebook-shield]][facebook-url]
 
 
 <!-- PROJECT LOGO -->
@@ -109,3 +107,5 @@ Project Link: [https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bountyfiveo
 [product-screenshot]: images/screenshot.png
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=for-the-badge&logo=facebook&colorB=555
+[facebook-url]: https://www.facebook.com/EngineerPatterson/
