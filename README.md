@@ -65,17 +65,17 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x ] Projects
+- [x] Projects
     - [ ] School Projects
     - [ ] Personal Projects
     - [ ] Work Projects
-- [x ] Contact
-    - [x ] Email
-    - [x ] Phone
-    - [x ] Social Media
-- [x ] About
+- [x] Contact
+    - [x] Email
+    - [x] Phone
+    - [x] Social Media
+- [x] About
      - [ ] Resume
-     - [x ] Skills
+     - [x] Skills
      - [ ] Education
      - [ ] Work Experience
      - [ ] Interests
