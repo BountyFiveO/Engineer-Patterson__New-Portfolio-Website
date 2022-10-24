@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](url://images/ep-screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-Website/blob/main/images/ep-screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
