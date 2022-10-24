@@ -103,7 +103,7 @@ Project Link: [https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-
 [issues-shield]: https://img.shields.io/github/issues/BountyFiveO/Engineer-Patterson__New-Portfolio-Website.svg?style=for-the-badge
 [issues-url]: https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-Website/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bountyfiveo
+[linkedin-url]: https://www.linkedin.com/in/engineerpatterson/
 [product-screenshot]: images/screenshot.png
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=for-the-badge&logo=facebook&colorB=555
 [facebook-url]: https://www.facebook.com/EngineerPatterson/
