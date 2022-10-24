@@ -2,11 +2,12 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+<div align="center">
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Facebook][facebook-shield]][facebook-url]
-
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
