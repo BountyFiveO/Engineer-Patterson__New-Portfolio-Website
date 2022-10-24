@@ -77,8 +77,6 @@
 - [x] About
      - [ ] Resume
      - [x] Skills
-     - [ ] Education
-     - [ ] Work Experience
      - [ ] Interests
 
 
