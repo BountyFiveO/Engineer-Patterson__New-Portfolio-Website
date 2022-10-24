@@ -70,17 +70,17 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Projects
+- [x ] Projects
     - [ ] School Projects
     - [ ] Personal Projects
     - [ ] Work Projects
-- [ ] Contact
-    - [ ] Email
-    - [ ] Phone
-    - [ ] Social Media
-- [ ] About
+- [x ] Contact
+    - [x ] Email
+    - [x ] Phone
+    - [x ] Social Media
+- [x ] About
      - [ ] Resume
-     - [ ] Skills
+     - [x ] Skills
      - [ ] Education
      - [ ] Work Experience
      - [ ] Interests
