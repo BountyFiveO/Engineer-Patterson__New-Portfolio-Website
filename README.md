@@ -2,12 +2,12 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-<div align="center">
+
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Facebook][facebook-shield]][facebook-url]
-</div>
+[![Thinkful][thinkful-shield]][thinkful-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -113,3 +113,5 @@ Project Link: [https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-
 [CSS-url]: https://www.w3schools.com/css/
 [JavaScript.com]: https://img.shields.io/badge/-JavaScript-black.svg?style=for-the-badge&logo=javascript&colorB=555
 [JavaScript-url]: https://www.w3schools.com/js/
+[thinkful-shield]: https://img.shields.io/badge/-Thinkful-black.svg?style=for-the-badge&logo=thinkful&colorB=555
+[thinkful-url]: https://www.thinkful.com/
