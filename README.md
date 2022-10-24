@@ -57,9 +57,6 @@
 
 ### Built With
 
-
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![HTML][HTML.com]][HTML-url]
 * [![CSS][CSS.com]][CSS-url]
 * [![JavaScript][JavaScript.com]][JavaScript-url]
@@ -109,3 +106,9 @@ Project Link: [https://github.com/BountyFiveO/Engineer-Patterson__New-Portfolio-
 [product-screenshot]: images/screenshot.png
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=for-the-badge&logo=facebook&colorB=555
 [facebook-url]: https://www.facebook.com/EngineerPatterson/
+[HTML.com]: https://img.shields.io/badge/-HTML-black.svg?style=for-the-badge&logo=html5&colorB=555
+[HTML-url]: https://www.w3schools.com/html/
+[CSS.com]: https://img.shields.io/badge/-CSS-black.svg?style=for-the-badge&logo=css3&colorB=555
+[CSS-url]: https://www.w3schools.com/css/
+[JavaScript.com]: https://img.shields.io/badge/-JavaScript-black.svg?style=for-the-badge&logo=javascript&colorB=555
+[JavaScript-url]: https://www.w3schools.com/js/
