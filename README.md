@@ -50,7 +50,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://engineerpatterson.com)
+[![Product Name Screen Shot][product-screenshot]](url://images/ep-screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
