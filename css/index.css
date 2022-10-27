@@ -915,20 +915,6 @@ padding-bottom: 40px;
     width: 100%;
     color:whitesmoke;
 }
-/* .blog-header{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 45px;
-    font-family: raleway;
-    color: whitesmoke;
-    padding:10px;
-    padding-bottom: 30px;
-    padding-top: 60px;
-    font-weight: 900;
-} */
 .cursor{
     height: 50px;
     width: 50px;
@@ -960,20 +946,36 @@ padding-bottom: 40px;
     transition:  scale .4s ease;
 }
 
-/* #blog{
+/* ---------  Start of School ---------- */
+
+.school-header{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: raleway;
+    color: whitesmoke;
+    padding:10px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    font-weight: 900;
+}
+#school{
     background: #101010;
     display: none;
     color:whitesmoke;
     width: 100%;
     height: auto;
 }
-.blog-content{
+.school-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-.blogs{
+.schools{
     height: 420px;
     width: 40%;
     margin: 20px;
@@ -981,14 +983,14 @@ padding-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
-.blogs .img{
+.schools .img{
     height: 80%;
     width: 100%;
     overflow: hidden;
     transition: all .65s ease;
     position: relative;
 }
-.blog-date{
+.school-date{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -1003,12 +1005,12 @@ padding-bottom: 40px;
     width: 25%;
     height: auto;
 }
-.blogs .img img{
+.schools .img img{
     height: 100%;
     width: 100%;
     transition: all .65s ease;
 }
-.blog-text{
+.school-text{
   height: 80%;
   width: 100%;
   text-align: center;
@@ -1018,14 +1020,14 @@ padding-bottom: 40px;
   background-color: #050505;
   transition: all .5s ease;
 }
-.blog-text h3{
+.school-text h3{                    
   font-size: 28px;
   font-weight: 500;
   height: 20%;
   padding: 20px;
   letter-spacing: 1px;
 }
-.blog-text p{
+.school-text p{                      
     font-size: 18px;
     opacity: .9;
     font-weight: 400;
@@ -1033,16 +1035,16 @@ padding-bottom: 40px;
     padding: 30px;
     letter-spacing: 1px;
   }
-.blogs:hover .img{
+.school:hover .img{                     /* .schools:hover */
       transform: translateY(-70%);
   }
-.blogs:hover .blog-text{
+.school:hover .school-text{             /* .schools:hover */
     transform: translateY(-70%);
 }
-.blogs a{
+.school a{                              /* .schools a */
     text-decoration: none;
     color: whitesmoke;
-} */
+}
 #contact{
     display: none;
     height: auto;
@@ -1595,7 +1597,7 @@ For devices with smaller width like mobile phone
                 transition: all .4s ease;
                 display: none;
             }
-            .blogs{
+            .schools{
                 height: auto;
                 width: 90%;
                 margin: 10px;
@@ -1603,14 +1605,14 @@ For devices with smaller width like mobile phone
                 margin-bottom: 20px;
                 position: relative;
             }
-            .blogs .img{
+            .schools .img{
                 height: 80%;
                 width: 100%;
                 overflow: hidden;
                 transition: all .65s ease;
                 position: relative;
             }
-            .blog-date{
+            .school-date{
                 position: absolute;
                 left: 0;
                 bottom: 0;
@@ -1623,12 +1625,12 @@ For devices with smaller width like mobile phone
                 width: 35%;
                 height: auto;
             }
-            .blogs .img img{
+            .schools .img img{
                 height: 100%;
                 width: 100%;
                 transition: all .65s ease;
             }
-            .blog-text{
+            .school-text{
               height: auto;
               width: 100%;
               text-align: center;
@@ -1638,14 +1640,14 @@ For devices with smaller width like mobile phone
               background-color: #000000;
               transition: all .5s ease;
             }
-            .blog-text h3{
+            .school-text h3{
               font-size: 24px;
               font-weight: 200;
               height: 15%;
               padding: 10px;
               letter-spacing: 1px;
             }
-            .blog-text p{
+            .school-text p{
                 font-size: 15px;
                 opacity: .9;
                 font-weight: 200;
@@ -1653,10 +1655,10 @@ For devices with smaller width like mobile phone
                 padding: 20px;
                 letter-spacing: 1px;
               }
-            .blogs:hover .img{
+            .schools:hover .img{
                   transform: translateY(0%);
               }
-            .blogs:hover .blog-text{
+            .schools:hover .school-text{
                 transform: translateY(0%);
             }
             .contact-content{
@@ -2038,11 +2040,18 @@ for tabs and large phones
                 padding: 15px;
             }
             .portfolio-text p{
-                font-size: 20px;
+                font-size: 16px;
                 opacity: .8;
                 font-family: poppins;
                 font-weight: 200;
                 padding: 15px;
+                margin-left: 10px;
+            }
+            .portfolio-text h2 img{
+                width: 90%;
+                background: #080808;
+                display: block;
+                margin: auto;
             }
             .cursor{
                 display: none;
@@ -2051,16 +2060,24 @@ for tabs and large phones
                 box-shadow:0px 0px 0px 0px #04A777 ;
             }
             .portfolio-image img{
-                height: 380px;
-                width: 100%;
+                height: 270px;
+                width: 50%;
                 position: relative;
             }
             .portfolio-image{
                 height: 380px;
-                width: 70%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 1.5%;
+                padding-right: 2%;
+                padding-top: 50px;
+                padding-bottom: 40px;
             }
             #navigation-bar img{
-                height: 80px;
+                height: 50px;
                 position: absolute;
                 top: 15%;
                 left: 2.5%;
@@ -2212,13 +2229,16 @@ for tabs and large phones
 @media all and (max-width: 9000px) and (min-width: 1441px){
 
     .portfolio-image img{
-        height: 500px;
-        width: 100%;
+        height: 250px;
+        width: 25%;
         position: relative;
     }
     .portfolio-image{
-        height: 500px;
-        width: 40%;
+        height: 350px;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: right;
     }
     .about-img img{
         width: 100%;
@@ -2303,7 +2323,7 @@ for tabs and large phones
         font-size: 18px;
         opacity: .8;
     }
-    .blogs{
+    .schools{
         height: 420px;
         width: 30%;
         margin: auto;
@@ -2312,14 +2332,14 @@ for tabs and large phones
         position: relative;
         overflow: hidden;
     }
-    .blogs .img{
+    .schools .img{
         height: 80%;
         width: 100%;
         overflow: hidden;
         transition: all .65s ease;
         position: relative;
     }
-    .blog-date{
+    .school-date{
         position: absolute;
         left: 0;
         bottom: 0;
@@ -2332,12 +2352,12 @@ for tabs and large phones
         width: 25%;
         height: auto;
     }
-    .blogs .img img{
+    .schools .img img{
         height: 100%;
         width: 100%;
         transition: all .65s ease;
     }
-    .blog-text{
+    .school-text{
       height: 80%;
       width: 100%;
       text-align: center;
@@ -2347,14 +2367,14 @@ for tabs and large phones
       background-color: #050505;
       transition: all .5s ease;
     }
-    .blog-text h3{
+    .school-text h3{
       font-size: 28px;
       font-weight: 500;
       height: 20%;
       padding: 20px;
       letter-spacing: 1px;
     }
-    .blog-text p{
+    .school-text p{
         font-size: 18px;
         opacity: .9;
         font-weight: 400;
@@ -2362,10 +2382,10 @@ for tabs and large phones
         padding: 30px;
         letter-spacing: 1px;
       }
-    .blogs:hover .img{
+    .schools:hover .img{
           transform: translateY(-70%);
       }
-    .blogs:hover .blog-text{
+    .schools:hover .school-text{
         transform: translateY(-70%);
     }
     .contact-header{
