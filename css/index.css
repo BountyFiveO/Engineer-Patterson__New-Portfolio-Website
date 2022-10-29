@@ -969,13 +969,13 @@ padding-bottom: 40px;
     width: 100%;
     height: auto;
 }
-.school-content{
+#school-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-.schools{
+.school{
     height: 420px;
     width: 40%;
     margin: 20px;
@@ -983,32 +983,17 @@ padding-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
-.schools .img{
-    height: 80%;
+/* .school-image {
+    height:20%;
     width: 100%;
     overflow: hidden;
     transition: all .65s ease;
     position: relative;
-}
-.school-date{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: #04A777;
-    color: whitesmoke;
-    font-size: 18px;
-    text-align: center;
-    font-weight: 400;
-    font-family: poppins;
-    padding: 3px;
-    transition: all .4s ease;
-    width: 25%;
-    height: auto;
-}
-.schools .img img{
+} */
+.school-image img{
     height: 100%;
     width: 100%;
-    transition: all .65s ease;
+
 }
 .school-text{
   height: 80%;
@@ -1018,9 +1003,10 @@ padding-bottom: 40px;
   font-family: poppins;
   color: whitesmoke;
   background-color: #050505;
-  transition: all .5s ease;
+
 }
-.school-text h3{                    
+.school-text h2{   
+  font-family: 'MADE Evolve Sans EVO', sans-serif;;                 
   font-size: 28px;
   font-weight: 500;
   height: 20%;
@@ -1035,13 +1021,51 @@ padding-bottom: 40px;
     padding: 30px;
     letter-spacing: 1px;
   }
-.school:hover .img{                     /* .schools:hover */
-      transform: translateY(-70%);
-  }
-.school:hover .school-text{             /* .schools:hover */
-    transform: translateY(-70%);
+  .school-text button{
+    font-size: 16px;
+    opacity: .8;
+    font-family:'MADE Evolve Sans EVO', sans-serif;
+    font-weight: 200;
+    padding: 10px 20px;
+    background:transparent;
+    color:#04A777;
+    transition: all .4s ease;
+    outline: none;
+    margin: 20px;
+    border: 1.5px solid #04A777;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: all .4s ease;
 }
-.school a{                              /* .schools a */
+.school-text button::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 200%;
+    transform: rotate(-15deg) translateY(-20px);
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: #04A777;
+    transition: all .7s ease;
+}
+.school-text button:hover{
+    opacity: 1;
+    color:whitesmoke;
+}
+ button:hover .index{
+     position: relative;
+    z-index: 4;
+}
+.school-text button:hover::before{
+    opacity: 1;
+    width: 120%;
+}
+.button{
+    text-align: center;
+}
+.school a{                             
     text-decoration: none;
     color: whitesmoke;
 }
