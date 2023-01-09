@@ -1,8 +1,8 @@
 /*!
   * Item: Engineer Patterson Website
   * Description: Shawn Patterson Portfolio Website
-  * Author/Developer: Engineer Patterson
-  * Version: v1.5
+  * Author/Developer: Shawn Patterson
+  * Version: v1.6
   */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
@@ -37,21 +37,11 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+/* input[type=number] {
   -moz-appearance: textfield;
-}
-  html{
-    background: #101010;
-    
-   
-   .loader {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background: linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
-    animation: animate 1.2s linear infinite;
-}
+} */
+/*----------New Loader Start-------------- */
+
 
 @keyframes animate {
     0% {
@@ -1437,17 +1427,17 @@ form button:hover{
 
 /*-------  TESTING LIGHTBOX  ------*/
 .modal {
-    display: none;  <!-- Hidden by default -->
-    position: fixed; <!-- Stay in place --> 
-    z-index: 1; <!-- Sit on top -->
-    padding-top: 100px; <!-- Location of the box -->
+    display: none;   
+    position: fixed;  
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; <!-- Full width -->
-    height: 100%; <!-- Full height -->
-    overflow: auto; <!-- Enable scroll if needed -->
-    background-color: rgb(0,0,0); <!-- Fallback color -->
-    background-color: rgba(0,0,0,0.9); <!-- Black w/ opacity -->
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
       }
 
        /* Modal Content (image)  */
